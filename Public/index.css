@@ -1004,8 +1004,8 @@ a{
 }
 h3{
   color: inherit;
-  transition: color 0.5s; */
-}
+  transition: color 0.5s;
+} */
 h3:hover{
   color: #ccc;
 }
