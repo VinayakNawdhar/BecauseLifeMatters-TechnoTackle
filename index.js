@@ -246,4 +246,8 @@ hamburgerModalBtn.addEventListener('click',function(e){
   hamburgerModal.classList.toggle('hidden')
 })
 
+document.querySelector('.hamburger-nav__links').addEventListener('click',function(){
+  hamburgerModal.classList.toggle('hidden');
+})
+
 
