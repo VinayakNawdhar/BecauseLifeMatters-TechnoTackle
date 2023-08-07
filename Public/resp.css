@@ -154,4 +154,11 @@
     .cookie-message{
         height: 70px;
     }
+    .cookie-message{
+        margin-top: 10px;
+        padding: 0px 25px;
+    }
+    .btn--close-cookie{
+        padding: 0.7rem 3.5rem;
+    }
 }
