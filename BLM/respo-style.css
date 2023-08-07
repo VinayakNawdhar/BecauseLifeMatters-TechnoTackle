@@ -1,0 +1,26 @@
+@media only screen and (max-width: 980px){
+    .container {
+        width: 50vw;
+    }
+}
+@media only screen and (max-width: 980px){
+    .container {
+        width: 70vw;
+        height: 80vw;
+    }
+    .container h1{
+        font-size: 3.5em;
+    }
+    .container h2{
+        font-size: 2em;
+    }
+    label{
+        font-size: 1.5rem;
+    }
+    input[type="text"] {
+        font-size: 1.5rem;
+    }
+    button[type="submit"]{
+        font-size: 1.5rem;
+    }
+}
