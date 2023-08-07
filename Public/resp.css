@@ -52,6 +52,7 @@
     }
     .nav__link{
         display: none;
+        padding-left: 1rem;
     }
     .cursor{
         display: none;
