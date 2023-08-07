@@ -125,4 +125,20 @@
         margin-left: 0.5rem;
         padding: 1.25rem 3.5rem;
     }
+    #section--4{
+        display: none;
+    }
+    .operation{
+        margin-left:2rem;
+    }
+    .section--sign-up{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section__title {
+        margin-left: 1.5rem;
+    }
 }
