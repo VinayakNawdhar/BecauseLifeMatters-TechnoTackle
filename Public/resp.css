@@ -182,4 +182,7 @@
     .weather p {
         font-size: 2.5vw;
     }
+    .operations__content p {
+        grid-column: 1 / span 2;
+    }
 }
