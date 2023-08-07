@@ -3,4 +3,10 @@
        display: flex;
       flex-wrap: wrap;
     }
+    .header{
+      height: 6vw;
+    }
+    #logo{
+      display: none;
+    }
 }
