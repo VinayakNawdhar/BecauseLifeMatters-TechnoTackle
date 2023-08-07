@@ -48,6 +48,7 @@
     }
     .hamburger img{
         display: block;
+        z-index: 1000;
     }
     .nav__link{
         display: none;
