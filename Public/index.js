@@ -203,6 +203,7 @@ slides.forEach((slide,i)=>{
 
 rightSlideBtn.addEventListener('click',slide.bind('right'))
 leftSlideBtn.addEventListener('click',slide.bind('left'))
+
 document.addEventListener('keydown',function(e){
   if(e.key === 'ArrowRight'){
     slide.bind('right')();

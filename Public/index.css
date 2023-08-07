@@ -916,7 +916,7 @@
   position: fixed;
   top: 0px;
   z-index: 999;
-  display: none;
+  transition: all 0.3s ease;
 }
 .contact{
   background: transparent;
@@ -968,6 +968,7 @@ h3{
 .hamburgerModal .hidden{
   opacity: 100;
   transform: translateX(-300px);
+
 }
 .input{
   width: 100%;
