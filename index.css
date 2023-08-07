@@ -1012,3 +1012,7 @@ textarea {
 .ss{
   font-weight: light;
 }
+.hamburger-nav__links{
+  list-style:disc;
+  color: rgb(33, 31, 31);
+}
