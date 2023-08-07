@@ -906,12 +906,15 @@
   height: 35px;
   display: none;
   position: relative;
+  cursor: pointer;
 }
+
 .hamburgerModal{
   height: 100vh;
   width: 100vw;
   background-color: grey;
   position: fixed;
+  top: 0px;
   z-index: 999;
   display: none;
 }
@@ -956,4 +959,10 @@ h3{
   font-family: 'poppins';
   color: inherit;
   font-weight: 500;
+}
+  transition: all 0.3s ease;
+}
+.hamburgerModal .hidden{
+  opacity: 100;
+  transform: translateX(-300px);
 }

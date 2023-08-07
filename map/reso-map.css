@@ -1,0 +1,44 @@
+.hamb{
+    cursor: pointer;
+    display: none;
+    width: 32px;
+    position: fixed;
+    top: 40px;
+    left: 40px;
+}
+.bar{
+    display: block;
+    width: 22px;
+    height: 5px;
+    margin: 4px;
+    background-color: black;
+}
+@media(max-width:750px){
+    .hamb{
+        display: inline;
+    }
+    .hamb.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamb.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamb.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    /* .workouts{
+        position: fixed;
+    } */
+    .sidebar{
+        display: none;
+        /* visibility: hidden; */
+    }
+    .map{
+        width: 100%;
+        z-index: -1;
+    }
+    body{
+        padding: 1.5rem;
+        background-color: #ececff;
+    }
+}

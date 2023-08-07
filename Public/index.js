@@ -108,7 +108,6 @@ const handleHover = function(e){
       }
     });
     logo.style.opacity =this;
-    console.log("Vinayak");
   }
 };
 navbar.addEventListener('mouseover',handleHover.bind(0.2));
@@ -251,3 +250,17 @@ const ctx = document.getElementById('myChart');
             }
           }
         });
+
+//Hamburger
+const hamburgerBtn = document.querySelector('#hamburger-nav img');
+const hamburgerModal = document.querySelector('.hamburgerModal');
+const hamburgerModalBtn = document.querySelector('#hamburgerModal-img img')
+
+hamburgerBtn.addEventListener('click',function(e){
+  hamburgerModal.classList.toggle('hidden')
+})
+hamburgerModalBtn.addEventListener('click',function(e){
+  hamburgerModal.classList.toggle('hidden')
+})
+
+
