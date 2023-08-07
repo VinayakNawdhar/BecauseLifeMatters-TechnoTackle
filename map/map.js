@@ -34,6 +34,7 @@ const formBtn = document.querySelector('.form__btn');
 const workouts = document.querySelector('.workouts');
 const addRedZoneBtn = document.querySelector('.add-red-zone-btn');
 const redZoneAreaBtn = document.querySelector('.red-zone-area-btn');
+const sidebar = document.querySelector('.sidebar')
 
 class App {
   #map;
@@ -71,6 +72,7 @@ class App {
     workouts.addEventListener('click', this._setViewFunction.bind(this));
   }
   _showForm(ev) {
+    sidebar.classList.remove('hidden')
     form.classList.toggle('hidden');
     inputTask.focus();
     this.#mapEvent = ev;
@@ -239,4 +241,11 @@ redZoneAreaMineBtn.addEventListener('click',function(e){
   }else{
     alert('Unable to get your location')
   }
+})
+
+
+
+const hamb = document.querySelector(".hamb");
+hamb.addEventListener('click',function(){
+sidebar.classList.toggle('hidden')
 })
