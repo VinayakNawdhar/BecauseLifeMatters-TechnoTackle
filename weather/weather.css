@@ -15,6 +15,8 @@
     box-sizing: border-box;
     text-align: center;
     margin-top: 19px;
+    /*transform: translateX(-50px);
+    transition: all 1s ease-in-out;*/
 }
 @media only screen and (max-width: 980px){
     .weather{

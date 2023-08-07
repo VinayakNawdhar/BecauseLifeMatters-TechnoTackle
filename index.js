@@ -249,5 +249,10 @@ hamburgerModalBtn.addEventListener('click',function(e){
 document.querySelector('.hamburger-nav__links').addEventListener('click',function(){
   hamburgerModal.classList.toggle('hidden');
 })
+const header__title = document.querySelector('.header__title');
+const weather = document.querySelector('.weather');
+
+header__title.classList.remove('reveal');
+weather.classList.remove('reveal');
 
 
