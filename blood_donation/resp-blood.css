@@ -1,0 +1,51 @@
+@media only screen and (max-width: 1450px) {
+    .donation-1 {
+        display: none;
+    }
+
+    .donation-2 {
+        display: none;
+    }
+
+    .blood-counter-container {
+        width: 88vw;
+    }
+
+    .per {
+        margin-right: 0;
+    }
+
+    .blood-counter span {
+        font-size: 2rem;
+        margin: 0px 1vw;
+    }
+
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 90px;
+        margin: 75px auto;
+    }
+
+    /* .buttons {
+        margin: 67px auto;
+    } */
+    .buttons button a {
+        padding: 15px 40px;
+    }
+
+    .buttons button {
+        margin: 15px auto;
+    }
+
+    .nav__logo {
+        display: none;
+    }
+
+    .nav ul {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}

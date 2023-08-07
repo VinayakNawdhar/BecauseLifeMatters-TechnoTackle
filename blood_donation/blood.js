@@ -49,12 +49,12 @@ const oneg = document.querySelector(".oneg");
 const abpos = document.querySelector(".abpos");
 
 
-bposper.textContent = `${(parseInt(getComputedStyle(bpos).width)/579.75*100).toFixed(0)} % `;
-aposper.textContent = `${(parseInt(getComputedStyle(apos).width)/579.75*100).toFixed(0)} % `;
-anegper.textContent = `${(parseInt(getComputedStyle(aneg).width)/579.75*100).toFixed(0)} % `;
+bposper.textContent = `${(parseInt(getComputedStyle(bpos).width)/579.75*100).toFixed(0)}% `;
+aposper.textContent = `${(parseInt(getComputedStyle(apos).width)/579.75*100).toFixed(0)}% `;
+anegper.textContent = `${(parseInt(getComputedStyle(aneg).width)/579.75*100).toFixed(0)}% `;
 // oposper.textContent = `${(parseInt(getComputedStyle(opos).width)/579.75*100).toFixed(0)} % `;
-onegper.textContent = `${(parseInt(getComputedStyle(oneg).width)/579.75*100).toFixed(0)} % `;
-abposper.textContent = `${(parseInt(getComputedStyle(abpos).width)/579.75*100).toFixed(0)} % `;
+onegper.textContent = `${(parseInt(getComputedStyle(oneg).width)/579.75*100).toFixed(0)}% `;
+abposper.textContent = `${(parseInt(getComputedStyle(abpos).width)/579.75*100).toFixed(0)}% `;
 
 
 
