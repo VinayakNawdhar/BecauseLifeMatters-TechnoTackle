@@ -1004,7 +1004,7 @@ textarea {
 }
 .s{
   color: inherit;
-  transition: color 0.5s; */
+  transition: color 0.5s; 
 }
 .s:hover{
   color: #ccc;
