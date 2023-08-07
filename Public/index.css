@@ -946,20 +946,20 @@
   list-style: none;
   text-decoration: none;
 }
-.c ul li {
+.c {
   text-decoration: none;
   list-style:none;
   color: inherit;
   font-family: 'poppins';
 }
-.c a{
+.c,.h{
   text-decoration: none;
   list-style:none;
   color: inherit;
   font-size:2rem;
   font-weight: 200;
 }
-h3{
+.s{
   font-size: 2.8rem;
   font-family: 'poppins';
   color: inherit;
@@ -996,17 +996,17 @@ textarea {
 .container1{
   padding: 14px;
 }
-a{
+.h{
   color:inherit;
   transition: color 0.5s;
 }
-a:hover{
+h:hover{
   color:#ccc;
 }
-h3{
+.s{
   color: inherit;
   transition: color 0.5s;
 }
-h3:hover{
+s:hover{
   color: #ccc;
 }
