@@ -249,12 +249,5 @@ hamburgerModalBtn.addEventListener('click',function(e){
 document.querySelector('.hamburger-nav__links').addEventListener('click',function(){
   hamburgerModal.classList.toggle('hidden');
 })
-const header__title = document.querySelector('.header__title h1');
-const header__titleSubtext = document.querySelector('.header__title h4');
-const weather = document.querySelector('.weather');
-
-header__title.classList.remove('reveal');
-header__titleSubtext.classList.remove('reveal');
-weather.classList.remove('weather-container');
 
 
