@@ -30,10 +30,10 @@
     /* .workouts{
         position: fixed;
     } */
-    .sidebar{
-        display: none;
+    /* .sidebar{
+        display: none; */
         /* visibility: hidden; */
-    }
+    /* } */
     .map{
         width: 100%;
         /* z-index: -1; */
@@ -41,5 +41,17 @@
     body{
         padding: 1.5rem;
         background-color: #ececff;
+    }
+    .sidebar{
+        position: absolute;
+        z-index: 9999;
+        width: 70%;
+        background-color: #c0bfbfc5;
+
+        
+    }
+    .sidebar.hidden{
+        transform: translateX(-100%);
+        opacity: 0%;
     }
 }
