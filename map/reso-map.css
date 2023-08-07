@@ -1,70 +1,69 @@
-.hamb{
-    cursor: pointer;
-    display: none;
-    width: 32px;
-    position: fixed;
-    top: 40px;
-    left: 65px;
+.hamb {
+  cursor: pointer;
+  display: none;
+  width: 32px;
+  position: fixed;
+  top: 40px;
+  left: 65px;
 }
-.bar{
-    display: block;
-    width: 22px;
-    height: 5px;
-    margin: 4px;
-    background-color: black;
+.bar {
+  display: block;
+  width: 22px;
+  height: 5px;
+  margin: 4px;
+  background-color: black;
 }
-@media(max-width:750px){
-    .hamb{
-        display: inline;
-        z-index: 9999999;
-    }
-    .hamb.active .bar:nth-child(2){
-        opacity: 0;
-    }
-    .hamb.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
-    .hamb.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
-    /* .workouts{
+@media (max-width: 750px) {
+  .hamb {
+    display: inline;
+    z-index: 9999999;
+  }
+  .hamb.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamb.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamb.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  /* .workouts{
         position: fixed;
     } */
-    /* .sidebar{
+  /* .sidebar{
         display: none; */
-        /* visibility: hidden; */
-    /* } */
-    .map{
-        width: 100%;
-        /* z-index: -1; */
-    }
-    body{
-        padding: 1.5rem;
-        background-color: #ececff;
-    }
-    .sidebar{
-        position: absolute;
-        z-index: 9999;
-        width: 91%;
-        background-color: #c0bfbfc5;
-    }
-    .sidebar.hidden{
-        transform: translateX(-100%);
-        opacity: 0%;
-    }
-    .all-btn{
-        padding: 0px;
-        bottom: 8%;
-    }
-}
-@media only screen and (max-width: 517px){
-    .form {
-      display: flex;
-      height: fit-content;
-      flex-direction: column;
-      
+  /* visibility: hidden; */
+  /* } */
+  .map {
+    width: 100%;
+    /* z-index: -1; */
   }
-  .all-btn{
+  body {
+    padding: 1.5rem;
+    background-color: #ececff;
+  }
+  .sidebar {
+    position: absolute;
+    z-index: 9999;
+    width: 94%;
+    background-color: #c0bfbfc5;
+  }
+  .sidebar.hidden {
+    transform: translateX(-100%);
+    opacity: 0%;
+  }
+  .all-btn {
+    padding: 0px;
+    bottom: 8%;
+  }
+}
+@media only screen and (max-width: 517px) {
+  .form {
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+  }
+  .all-btn {
     padding-left: 0;
   }
   .add-red-zone-btn {
@@ -74,7 +73,12 @@
     margin-right: 3.2vw;
   }
   .red-zone-area-mine {
-    font-size: 4vw
+    font-size: 4vw;
   }
-  } 
- 
+}
+@media only screen and (max-width: 430px) {
+    .workout--running{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
