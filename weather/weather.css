@@ -15,8 +15,6 @@
     box-sizing: border-box;
     text-align: center;
     margin-top: 19px;
-    /*transform: translateX(-50px);
-    transition: all 1s ease-in-out;*/
 }
 .weather h3{
     font-size: 2vw;
