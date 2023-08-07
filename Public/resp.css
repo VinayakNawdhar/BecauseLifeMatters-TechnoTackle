@@ -141,4 +141,10 @@
     .section__title {
         margin-left: 1.5rem;
     }
+    .footer__item {
+        margin-right: 2.5vw;
+    }
+    .footer__link{
+        font-size: 3.5vw;
+    }
 }
