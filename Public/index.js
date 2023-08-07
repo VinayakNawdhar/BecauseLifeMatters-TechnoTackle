@@ -254,8 +254,13 @@ const ctx = document.getElementById('myChart');
 //Hamburger
 const hamburgerBtn = document.querySelector('#hamburger-nav img');
 const hamburgerModal = document.querySelector('.hamburgerModal');
+const hamburgerModalBtn = document.querySelector('#hamburgerModal-img img')
 
 hamburgerBtn.addEventListener('click',function(e){
-  // hamburgerModal.style.display = 'flex';
+  hamburgerModal.classList.toggle('hidden')
 })
+hamburgerModalBtn.addEventListener('click',function(e){
+  hamburgerModal.classList.toggle('hidden')
+})
+
 
