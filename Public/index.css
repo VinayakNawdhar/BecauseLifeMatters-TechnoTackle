@@ -404,10 +404,10 @@
     grid-column: 2;
   }
   
-  .operations__icon--1 {
+  .operations__icon--2 {
     background-color: var(--color-secondary-opacity);
   }
-  .operations__icon--2 {
+  .operations__icon--1 {
     background-color: var(--color-primary-opacity);
   }
   .operations__icon--3 {
