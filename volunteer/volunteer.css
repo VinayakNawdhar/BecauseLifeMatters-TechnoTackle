@@ -136,9 +136,17 @@
   }
 
   .carousel{
-    margin-top: 62px;
+    margin-top: 42px;
+    display: flex;
   }
-  
+  /* .nav::before{
+    content: " ";
+    z-index: -1;
+    height: 50px;
+    position: absolute;
+    width: 100%;
+  } 
+  */
 
   .volunteer-container img{
     height: 100px;
@@ -146,15 +154,18 @@
   }
   .volunteer-inner-container{
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .volunteer-container h1{
     font-size: large;
     text-align: center;
   }
   .volunteer-container{
-    margin-top: 100px;
-    padding: 50px 197px;
+    /* margin-top: 100px; */
+    padding: 50px 15vw;
     background-color: #ddd4d4;
+    width: 100%;
     /* border: 2px solid black; */
   }
   .card{
@@ -209,4 +220,7 @@
   .carousel{
     background-color: #121211;
     height: 62vh;
+  }
+  .slide{
+    position:static;
   }
