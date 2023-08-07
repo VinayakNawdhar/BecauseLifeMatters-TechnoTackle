@@ -147,4 +147,11 @@
     .footer__link{
         font-size: 3.5vw;
     }
+    .weather {
+        height: 153px;
+        width: 64vw;
+    }
+    .cookie-message{
+        height: 70px;
+    }
 }
