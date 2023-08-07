@@ -718,6 +718,7 @@ h4 {
 
 /* COOKIE MESSAGE */
 .cookie-message {
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -728,6 +729,8 @@ h4 {
   font-weight: 400;
   height: 60px;
   overflow-x: hidden;
+  bottom: 0;
+  z-index: 500;
 }
 
 .twitter-box {
@@ -971,9 +974,11 @@ h4 {
 }
 input[type="text"] {
   width: 100%;
-  padding: 12px 20px;
+  padding: 8px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  font-size: 15px;
+  border-radius: 7px;
 }
 textarea {
   width: 100%;
@@ -984,6 +989,7 @@ textarea {
   border-radius: 4px;
   background-color: #f8f8f8;
   resize: none;
+  font-size: 13px;
 }
 .cc {
   flex-direction: column;
