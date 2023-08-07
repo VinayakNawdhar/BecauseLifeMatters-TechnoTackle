@@ -322,7 +322,7 @@ html {
 .table tr td img{
     display:block; 
     border-style: none;
-    width: 80%;
+    width: 25vw;
     height: 80%;
     padding: 0px;
     text-align: left;
