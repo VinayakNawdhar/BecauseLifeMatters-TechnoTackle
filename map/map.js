@@ -74,7 +74,6 @@ class App {
     form.classList.toggle('hidden');
     inputTask.focus();
     this.#mapEvent = ev;
-    // console.log(ev);
   }
 
   _newWorkout(e) {
