@@ -41,6 +41,11 @@
     .hamburgerModal button{
         font-size: 30px;
     }
+    #hamburgerModal-img img{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
     .hamburgerModal .hamburger{
         position: absolute;
         top: 5vh;
