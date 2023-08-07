@@ -49,6 +49,7 @@ a:visited {
   flex-direction: column;
   width: 40vw;
   transition: all 0.5s ease-in-out;
+  display: relative;
 }
 
 .logo {
@@ -271,7 +272,7 @@ a:visited {
   font-weight: bold;
 }
 .add-red-zone-btn{
-  width: 300px;
+  width: 150px;
   height: 30px;
   box-sizing: border-box;
   border-radius: 20px;
@@ -283,10 +284,11 @@ a:visited {
   /* border: 2px solid black; */
   display: flex;
   align-items: center;
-  width: 350px;
   justify-content: center;
   box-sizing: border-box;
   padding-left: 70px;
+  position: absolute;
+  bottom: 5.5vw;
 }
 .red-zone-area-mine{
   position: relative;
