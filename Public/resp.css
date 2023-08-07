@@ -1,0 +1,88 @@
+@media only screen and (max-width: 1326px){
+    .nav{
+        padding: 0px 1vw;
+    }
+    .nav__logo{
+        height: 5vw;
+    }
+    .nav__item {
+        margin-left: 2rem;
+    }
+}
+@media only screen and (max-width: 980px){
+    .main{
+        background-color: #f3f3f3;
+    }
+    body,html{
+        height: 100%;
+        width: 100%;
+    }
+    .nav__logo{
+        height: 14vw;
+    }
+    .hamburgerModal .nav{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .hamburgerModal .nav .nav__logo{
+        height: 200px;
+    }
+    .hamburgerModal .nav ul{
+        flex-direction: column;
+        font-size: 20px;
+    }
+    .hamburgerModal .nav__item a{
+        font-size: 30px;
+    }
+    .hamburgerModal button{
+        font-size: 30px;
+    }
+    .hamburgerModal .hamburger{
+        position: absolute;
+        top: 5vh;
+        right: 10vw;
+    }
+    .hamburger img{
+        display: block;
+    }
+    .nav__link{
+        display: none;
+    }
+    .cursor{
+        display: none;
+    }
+    .header__img{
+        display: none;
+    }
+    .header{
+        height: 100vh;
+    }
+    .header__title{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .header__title h1{
+        font-size: 9vw;
+    }
+    .weather{
+        position: static;
+    }
+    .Subscribe-btn{
+        position: static;
+    }
+    .weather{
+        height: 150px;
+        width: 50vw;
+    }
+    .weather p{
+        font-size: 1.5vw;
+    }
+    .section h1{
+        width: 100%;
+    }
+}

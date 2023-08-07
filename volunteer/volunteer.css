@@ -1,0 +1,208 @@
+
+
+:root {
+    --color-primary: #5ec576;
+    --color-secondary: #ffcb03;
+    --color-tertiary: #ff585f;
+    --color-primary-darker: #4bbb7d;
+    --color-secondary-darker: #ffbb00;
+    --color-tertiary-darker: #fd424b;
+    --color-primary-opacity: #5ec5763a;
+    --color-secondary-opacity: #ffcd0331;
+    --color-tertiary-opacity: #ff58602d;
+    --gradient-primary: linear-gradient(to top left, #39b385, #9be15d);
+    --gradient-secondary: linear-gradient(to top left, #ffb003, #ffcb03);
+    --gradient-tertiary: linear-gradient(to top left, #121211, #a1a09e);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.9;
+    background-color: #e9dfdf;
+  }
+  
+  
+  .nav.sticky {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .nav__logo {
+    height: 10rem;
+    transition: all 0.3s;
+  }
+  .nav__link img{
+    height: 50px;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+  }
+  .nav__link img:hover{
+    transform: translateY(3px);
+    box-shadow: 0.1px 0.1px 10px 10px #837e7e8c;
+  }
+  .nav__links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .nav__item {
+    margin-left: 4rem;
+  }
+  
+  .btn-danger{
+    color: #333;
+    font-size: large;
+    border: none;
+    background-color: inherit;
+  }
+
+  .nav__link:link,
+  .nav__link:visited {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s;
+  }
+  
+  .nav__link--btn:link,
+  .nav__link--btn:visited {
+    padding: 0.8rem 2.5rem;
+    border-radius: 3rem;
+    background-color: var(--color-primary);
+    color: #222;
+  }
+  
+  .nav__link--btn:hover,
+  .nav__link--btn:active {
+    color: inherit;
+    background-color: var(--color-primary-darker);
+    color: #333;
+  }
+  
+  /* HEADER */
+  .header {
+    padding: 0 3rem;
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    font-size: 5.5rem;
+    line-height: 1.35;
+  }
+  
+  h4 {
+    font-size: 2.4rem;
+    font-weight: 500;
+  }
+  
+  .header__img {
+    width: 100%;
+    grid-column: 2 / 3;
+    grid-row: 1 / span 4;
+    transform: translateY(-6rem);
+  }
+  
+  .highlight {
+    position: relative;
+  }
+  .dropdown-item{
+    /* border: 1px solid black; */
+    background-color: #f3f3f3;
+    font-size: 1.5rem;
+    width: 120px;
+    text-align: center;
+  }
+  .dropdown-menu{
+    background: inherit;
+  }
+
+  .carousel{
+    margin-top: 150px;
+  }
+  
+
+  .volunteer-container img{
+    height: 100px;
+    width: 100px;
+  }
+  .volunteer-inner-container{
+    display: flex;
+  }
+  .volunteer-container h1{
+    font-size: large;
+    text-align: center;
+  }
+  .volunteer-container{
+    margin-top: 100px;
+    padding: 50px 250px;
+    background-color: #ddd4d4;
+    /* border: 2px solid black; */
+  }
+  .card{
+    /* border: 2px solid black; */
+    margin: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 200px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+  }
+  .card p{
+    display: inline;
+  }
+  .card span{
+    color: red;
+  }
+  .anchor a{
+    font-size: 2.5rem;
+    display: inline;
+    text-decoration: none;
+    padding: 30px;
+    background-color: var(--color-primary);
+    color: white;
+    border-radius: 70px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .anchor{
+    padding: 50px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .preloader{
+    position: relative;
+    left: 45%;
+    top: 35%;
+    z-index: 2000;
+  
+  }
+  .preloader-container{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1000;
+    top: 0px;
+    background-color: rgb(244, 243, 243);
+  }
