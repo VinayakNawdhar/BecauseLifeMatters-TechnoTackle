@@ -16,12 +16,6 @@
     text-align: center;
     margin-top: 19px;
 }
-@media only screen and (max-width: 980px){
-    .weather{
-        height: 19vh;
-        margin-top: 0;
-    }
-}
 .weather h3{
     font-size: 2vw;
 }
@@ -60,3 +54,12 @@
 .weather-temp img{
     margin-right: 30px;
 }
+    @media only screen and (max-width: 980px){
+        .weather{
+            height: 19vh;
+            margin-top: 0;
+        }
+        .weather h3{
+            font-size: 3vw;
+        }
+    }
