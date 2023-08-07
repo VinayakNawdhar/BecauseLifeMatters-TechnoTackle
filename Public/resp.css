@@ -89,8 +89,11 @@
     .twitter-handle{
         flex-direction: column;
     }
-    .section__title{
+    .sec1{
         margin-left: 9rem;
+    }
+    .sec3{
+        margin-left: 2rem;
     }
     .ember-view{
         margin-bottom: 2rem;
@@ -138,7 +141,27 @@
         justify-content: center;
         align-items: center;
     }
-    .section__title {
+    .sign {
         margin-left: 1.5rem;
+    }
+    .footer__item {
+        margin-right: 2.5vw;
+    }
+    .footer__link{
+        font-size: 3.5vw;
+    }
+    .weather {
+        height: 153px;
+        width: 64vw;
+    }
+    .cookie-message{
+        height: 70px;
+    }
+    .cookie-message{
+        margin-top: 10px;
+        padding: 0px 25px;
+    }
+    .btn--close-cookie{
+        padding: 0.7rem 3.5rem;
     }
 }
