@@ -136,7 +136,8 @@
   }
 
   .carousel{
-    margin-top: 62px;
+    margin-top: 42px;
+    display: flex;
   }
   /* .nav::before{
     content: " ";
@@ -219,4 +220,7 @@
   .carousel{
     background-color: #121211;
     height: 62vh;
+  }
+  .slide{
+    position:static;
   }
