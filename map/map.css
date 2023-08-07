@@ -303,3 +303,23 @@ a:visited {
 .red-zone-area-mine:hover{
   font-size: 1.2vw;
 }
+@media only screen and (max-width: 681px){
+  .form {
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+.all-btn{
+  padding-left: 0;
+}
+.add-red-zone-btn {
+  width: 211px;
+}
+.add-red-zone-btn {
+  margin-right: 3.2vw;
+}
+.red-zone-area-mine {
+  font-size: 4vw
+}
+}

@@ -167,8 +167,6 @@
     }
     .cookie-message{
         height: 70px;
-    }
-    .cookie-message{
         margin-top: 18px;
         padding: 0px 25px;
     }
@@ -184,5 +182,26 @@
     }
     .operations__content p {
         grid-column: 1 / span 2;
+    }
+    .bb {
+        /* margin-bottom: 28px; */
+        margin-left: 43px;
+    }
+}
+@media only screen and (max-width: 640px){
+    .cookie-message{
+        height: fit-content;
+        margin-top: 18px;
+        padding: 0px 2rem;
+        flex-direction: column;
+        text-align: center;
+        /* font-size: 1.5rem; */
+    }
+    .btn--close-cookie{
+        padding: 0.7rem 2rem
+        
+    }
+    .cookie-message{
+        padding: 0 0;
     }
 }
