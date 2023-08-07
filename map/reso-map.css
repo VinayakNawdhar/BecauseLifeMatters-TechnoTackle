@@ -45,7 +45,7 @@
     .sidebar{
         position: absolute;
         z-index: 9999;
-        width: 70%;
+        width: 91%;
         background-color: #c0bfbfc5;
     }
     .sidebar.hidden{
@@ -57,3 +57,24 @@
         bottom: 8%;
     }
 }
+@media only screen and (max-width: 517px){
+    .form {
+      display: flex;
+      height: fit-content;
+      flex-direction: column;
+      
+  }
+  .all-btn{
+    padding-left: 0;
+  }
+  .add-red-zone-btn {
+    width: 211px;
+  }
+  .add-red-zone-btn {
+    margin-right: 3.2vw;
+  }
+  .red-zone-area-mine {
+    font-size: 4vw
+  }
+  } 
+ 
