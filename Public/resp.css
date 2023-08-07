@@ -41,11 +41,6 @@
     .hamburgerModal button{
         font-size: 30px;
     }
-    #hamburgerModal-img img{
-        position: absolute;
-        right: 0px;
-        top: 0px;
-    }
     .hamburgerModal .hamburger{
         position: absolute;
         top: 5vh;
@@ -90,5 +85,28 @@
     }
     .section h1{
         width: 100%;
+    }
+    .twitter-handle{
+        flex-direction: column;
+    }
+    .section__title{
+        margin-left: 9rem;
+    }
+    .ember-view{
+        margin-bottom: 2rem;
+    }
+    .inventory-container{
+        flex-direction: column;
+        
+    }
+    #inventoryTable{
+        margin-bottom: 3rem;
+        margin-left: 20vw;
+        width: 63vw;
+        font-size: 1.5vw;
+    }
+    .chart{
+        margin-left: 24vw;
+        height: 40vh;
     }
 }
