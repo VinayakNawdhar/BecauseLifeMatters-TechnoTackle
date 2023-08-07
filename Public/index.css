@@ -916,7 +916,7 @@
   position: fixed;
   top: 0px;
   z-index: 999;
-  display: none;
+  transition: all 0.3s ease;
 }
 .se{
     display: flex;
@@ -960,8 +960,7 @@ h3{
   color: inherit;
   font-weight: 500;
 }
-  transition: all 0.3s ease;
-}
+  
 .hamburgerModal .hidden{
   opacity: 100;
   transform: translateX(-300px);
