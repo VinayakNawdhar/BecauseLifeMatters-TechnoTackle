@@ -22,6 +22,7 @@ class Workout {
   }
 }
 
+
 const redZoneAreaMineBtn = document.querySelector('.red-zone-area-mine');
 const redZoneAreaForm = document.querySelector('.red-zone-area');
 const form = document.querySelector('.form');
@@ -161,6 +162,20 @@ _setLocalStorage(){
   localStorage.setItem('red-zone-area',JSON.stringify(this.mapCircles))
 }
 _getLocalStorage(){
+  fetch('./entry.json')
+  .then((response) => response.json())
+  .then((json) => {
+    for(let i=0;i<json.enteries.length;i++){
+      this._addField(json.enteries[i]);
+      this._renderWorkoutMarker(json.enteries[i]);
+    }
+  });
+  if(localStorage.getItem('red-zone-area')){
+    this.mapCircles = JSON.parse(localStorage.getItem('red-zone-area'));
+    for(let i=0;i<this.mapCircles.length;i++){
+      this._createCircle(this.mapCircles[i].latitude,this.mapCircles[i].longitude,this.mapCircles[i].radius)
+    }
+  }
   if (localStorage.getItem('vinayak')) {
     this.#events = JSON.parse(localStorage.getItem('vinayak'));
     for(let i=0;i<this.#events.length;i++){
@@ -168,12 +183,7 @@ _getLocalStorage(){
       this._renderWorkoutMarker(this.#events[i]);
     }
   }
-  if(localStorage.getItem('red-zone-area')){
-    this.mapCircles = JSON.parse(localStorage.getItem('red-zone-area'));
-    for(let i=0;i<this.mapCircles.length;i++){
-      this._createCircle(this.mapCircles[i].latitude,this.mapCircles[i].longitude,this.mapCircles[i].radius)
-    }
-  }
+  
 }
 reset(){
   localStorage.clear();
