@@ -89,8 +89,11 @@
     .twitter-handle{
         flex-direction: column;
     }
-    .section__title{
+    .sec1{
         margin-left: 9rem;
+    }
+    .sec3{
+        margin-left: 2rem;
     }
     .ember-view{
         margin-bottom: 2rem;
