@@ -144,11 +144,21 @@
     .sign {
         margin-left: 1.5rem;
     }
+    .foot{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+    }
+    .footer {
+        padding: 10rem 1rem;
+    }
     .footer__item {
-        margin-right: 2.5vw;
+        margin-right: 3.5vw;
+        margin-left: 3.5vw;
     }
     .footer__link{
         font-size: 3.5vw;
+        padding: 5px auto;
     }
     .weather {
         height: 153px;
