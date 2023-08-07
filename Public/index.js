@@ -154,24 +154,6 @@ allSections.forEach(function(section){
   sectionObserver.observe(section);
 })
 
-//Lazy Loading images
-const imgCallback = function(entries,observer){
-  const entry = entries[0];
-  if(entry.isIntersecting){
-  entry.target.src = entry.target.getAttribute('data-src');
-  entry.target.addEventListener('load',function(){
-    entry.target.classList.remove('lazy-img')
-  })
-  imageObserver.unobserve(entry.target);
-  }
-}
-const imageObserver = new IntersectionObserver(imgCallback,{root:null,threshold : 1});
-
-allImages.forEach(img=>{
-  imageObserver.observe(img);
-})
-
-
 //slider
 
 let currentSlide = 0;

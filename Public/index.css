@@ -150,7 +150,6 @@
     width: 100%;
     padding: 0 6rem;
     z-index: 100;
-    /* border: 2px solid black; */
     transition: all 0.4s ease;
   }
   .nav__link img{
@@ -929,7 +928,7 @@
     font-weight: 700;
     text-transform: uppercase;
     color: var(--color-primary);
-    padding-top:5%;
+    padding-top:6%;
    margin-left:5%;
   
 }
@@ -1000,12 +999,12 @@ a{
   color:inherit;
   transition: color 0.5s;
 }
-a:hover{
+/* a:hover{
   color:#ccc;
 }
 h3{
   color: inherit;
-  transition: color 0.5s;
+  transition: color 0.5s; */
 }
 h3:hover{
   color: #ccc;
