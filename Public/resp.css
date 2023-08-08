@@ -13,6 +13,12 @@
     /* .main{
         background-color: #f3f3f3;
     } */
+    .nav {
+        padding: 0;
+    }
+    .nav__links{
+        padding-left: 1rem;
+    }
     body,html{
         height: 100%;
         width: 100%;
@@ -198,7 +204,8 @@
         /* font-size: 1.5rem; */
     }
     .btn--close-cookie{
-        padding: 0.7rem 2rem
+        padding: 0.7rem 2rem;
+        margin-bottom: 5px;
         
     }
     .cookie-message{

@@ -164,55 +164,6 @@ main footer .input2{
 main footer textarea::placeholder{
 	color:#ddd;
 }
-
-
-@media only screen and (max-width: 980px){
-	#container{
-		width:100%;
-		height: 100%;
-	}
-	main{
-		display: inline-block;
-		width: 100%;
-		height: 100%;
-	}
-	main header{
-		display: inline-block;
-		width: 100%;
-		text-align: center;
-	}
-	main header h2{
-		font-size: 26px;
-	}
-	main .inner_div{
-		height: 83vh;
-	}
-	main footer .input1 {
-		width: 100%;
-		padding: 9px 14px;
-		font-size: 19px;
-	}
-	main footer .input2 {
-		margin-left: 12vw;
-		padding: 10px;
-		font-size: 18px;
-	}
-	main footer textarea {
-		width: 116%;
-		padding: 12px 20px;
-		font-size: 21px;
-	}
-	main footer {
-		height: 105px;
-	}
-	main .message {
-		font-size: 17px;
-	}
-	main .message1 {
-		font-size: 17px;
-	}
-
-}
 main header{
 	display : flex;
 	justify-content: center;
@@ -229,4 +180,61 @@ main header{
     color: white;
     border: 2px solid white;
 	cursor: pointer;
+}
+
+@media only screen and (max-width: 980px){
+	#container{
+		width:100%;
+		height: 100%;
+	}
+	main{
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+	}
+	main header{
+		display: inline-block;
+		width: 100%;
+		height: 150px;
+		text-align: center;
+	}
+	main header h2{
+		font-size: 36px;
+		margin-top: 44px;
+	}
+	main .inner_div{
+		height: 77vh;
+	}
+	main footer .input1 {
+		width: 100%;
+		padding: 9px 14px;
+		font-size: 19px;
+		/* margin-bottom: -10px; */
+	}
+	main footer .input2 {
+		margin-left: 12vw;
+		padding: 10px;
+		font-size: 18px;
+		/* margin-bottom: -10px; */
+	}
+	main footer textarea {
+		width: 116%;
+		padding: 12px 20px;
+		font-size: 21px;
+		/* margin-bottom: -10px; */
+	}
+	main footer {
+		height: 150px;
+		display: flex;
+	}
+	main .message {
+		font-size: 17px;
+	}
+	main .message1 {
+		font-size: 17px;
+	}
+	.refresh-btn{
+		margin-top: 46px;
+		font-size: 27px;
+	}
 }

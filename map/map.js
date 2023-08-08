@@ -154,6 +154,7 @@ class App {
     const targetEl = e.target.closest('.workout');
     const id = targetEl.getAttribute('data-id');
     const targetedWorkout = this.#events.find(el => el.id === id);
+    sidebar.classList.toggle('hidden')
     const { lat, lng } = targetedWorkout.event;
     this.#map.flyTo([lat, lng], 14);
   }
@@ -163,8 +164,9 @@ _setLocalStorage(){
 }
 _getLocalStorage(){
   fetch('./entry.json')
-  .then((response) => response.json())
+  .then( (response) => response.json())
   .then((json) => {
+    this.#events = json.enteries;
     for(let i=0;i<json.enteries.length;i++){
       this._addField(json.enteries[i]);
       this._renderWorkoutMarker(json.enteries[i]);
