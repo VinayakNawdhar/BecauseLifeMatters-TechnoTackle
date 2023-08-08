@@ -165,3 +165,43 @@ main footer .input2{
 main footer textarea::placeholder{
 	color:#ddd;
 }
+@media only screen and (max-width: 980px){
+	#container{
+		width:100%;
+		height: 100%;
+	}
+	main{
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+	}
+	main header{
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+	}
+	main header h2{
+		font-size: 26px;
+	}
+	main .inner_div{
+		height: 80vh;
+	}
+	main footer .input1 {
+		width: 100%;
+		padding: 8px;
+		font-size: 27px;
+	}
+	main footer .input2 {
+		margin-left: 12vw;
+		padding: 10px;
+		font-size: 18px;
+	}
+	main footer textarea {
+		width: 116%;
+		padding: 8px 14px;
+		font-size: 27px;
+	}
+	main footer {
+		height: 105px;
+	}
+}
