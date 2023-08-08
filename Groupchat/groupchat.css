@@ -27,7 +27,6 @@ main{
 }
 main header{
 	height:100px;
-	padding:30px 20px 30px 40px;
 	background:linear-gradient(to top left, #39b385, #9be15d);
 }
 main header > *{
@@ -48,7 +47,7 @@ main header div{
 }
 main header h2{
 	font-size:23px;
-	margin-top:5px;
+	margin-top: 20px;
 	text-align:center;
 	color:#FFFFFF;
 }
@@ -165,6 +164,8 @@ main footer .input2{
 main footer textarea::placeholder{
 	color:#ddd;
 }
+
+
 @media only screen and (max-width: 980px){
 	#container{
 		width:100%;
@@ -184,12 +185,12 @@ main footer textarea::placeholder{
 		font-size: 26px;
 	}
 	main .inner_div{
-		height: 80vh;
+		height: 83vh;
 	}
 	main footer .input1 {
 		width: 100%;
-		padding: 8px;
-		font-size: 27px;
+		padding: 9px 14px;
+		font-size: 19px;
 	}
 	main footer .input2 {
 		margin-left: 12vw;
@@ -198,10 +199,34 @@ main footer textarea::placeholder{
 	}
 	main footer textarea {
 		width: 116%;
-		padding: 8px 14px;
-		font-size: 27px;
+		padding: 12px 20px;
+		font-size: 21px;
 	}
 	main footer {
 		height: 105px;
 	}
+	main .message {
+		font-size: 17px;
+	}
+	main .message1 {
+		font-size: 17px;
+	}
+
+}
+main header{
+	display : flex;
+	justify-content: center;
+	align-items: center;
+}
+.heading{
+	text-align: center;
+	align-content: center;
+}
+.refresh-btn{
+	background-color: transparent;
+    border-radius: 50px;
+    padding: 5px 10px;
+    color: white;
+    border: 2px solid white;
+	cursor: pointer;
 }

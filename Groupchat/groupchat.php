@@ -39,16 +39,16 @@ mysqli_close($link);
 <div id="container">
 	<main>
 		<header>
-			<img src="https://s3-us-west-2.amazonaws.com/
-			s.cdpn.io/1940306/ico_star.png" alt="">
 			<div>
-				<h2>HELP EACH OTHER</h2>
+				<h2 class="heading">HELP EACH OTHER</h2>
 			</div>
-			<img src="https://s3-us-west-2.amazonaws.com/
-			s.cdpn.io/1940306/ico_star.png" alt="">
+			<button class="refresh-btn">Refresh🔃</button>
 		</header>
-
 <script>
+	document.querySelector('.refresh-btn').addEventListener('click',function(e){
+		e.preventDefault();
+		window.location.href = 'https://becauselifematters.com/Groupchat/groupchat.php';
+	})
 function show_func(){
 
 var element = document.getElementById("chathist");
@@ -58,6 +58,7 @@ var element = document.getElementById("chathist");
 
 <form id="myform" action="groupchat.php" method="POST" >
 <div class="inner_div" id="chathist">
+
 <?php
 $host = "localhost";
 $user = "root";
