@@ -34,6 +34,7 @@ mysqli_close($link);
 ?>
 <html>
 <head>
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="./groupchat.css">
 <body onload="show_func()">
 <div id="container">
@@ -42,7 +43,7 @@ mysqli_close($link);
 			<div>
 				<h2 class="heading">HELP EACH OTHER</h2>
 			</div>
-			<button class="refresh-btn">Refresh🔃</button>
+			<button class="refresh-btn">Refresh <i class="ri-repeat-fill"></i></button>
 		</header>
 <script>
 	document.querySelector('.refresh-btn').addEventListener('click',function(e){
